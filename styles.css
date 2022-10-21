@@ -31,7 +31,9 @@
 
 .bottom-row {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;  
+    justify-content: space-between;
+    gap: 32px; 
 }
 
 .awesome {
