@@ -1,16 +1,24 @@
 .header {
     background-color: #1f2937;
     color:#f9faf8;
+    padding-top: 16px;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-bottom: 64px;
 }
 
 .top-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 64px;
 }
 
 .header-logo {
     align-self: flex-start;
+    font-size: 24px;
+    color:#f9faf8;
+    font-weight: bold;
 }
 
 .links {
@@ -19,6 +27,23 @@
     list-style: none;
     gap:18px;
     margin: 0px;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;   
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+}
+
+.top-image {
+    background-color: gray;
+    width: 400px;
+    height: 200px;
 }
 
 .hero-main-text {
