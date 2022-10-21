@@ -1,0 +1,32 @@
+.header {
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-logo {
+    align-self: flex-start;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:18px;
+    margin: 0px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight:900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb
+}
