@@ -74,6 +74,7 @@
     width: fit-content;
     padding-left: 32px;
     padding-right: 32px;
+    flex-basis: auto;
 }
 
 .section-1 {
@@ -169,4 +170,13 @@
 .two {
     border-color:#f9faf8;
     border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content:center;
+    padding:35px;
+
 }
